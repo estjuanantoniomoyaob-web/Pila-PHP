@@ -14,7 +14,7 @@ class Pila {
         if (count($_SESSION['pila_estudiantes']) >= $this->capacidad) {
             return "La pila está llena.";
         }
-        // Inserción LIFO al final del arreglo
+        
         array_push($_SESSION['pila_estudiantes'], $estudiante);
         return "Estudiante insertado correctamente: " . $estudiante->nombres . " " . $estudiante->apellidos;
     }
@@ -23,13 +23,13 @@ class Pila {
         if ($this->esVacia()) {
             return "La pila está vacía.";
         }
-        // Extrae el último elemento insertado (LIFO)
+        
         $eliminado = array_pop($_SESSION['pila_estudiantes']);
         return "Estudiante eliminado: " . $eliminado->nombres . " " . $eliminado->apellidos;
     }
 
     public function obtenerPila() {
-        // Retorna la pila invertida para ver el tope primero en la vista
+        
         return array_reverse($_SESSION['pila_estudiantes']);
     }
 
