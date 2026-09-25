@@ -19,7 +19,9 @@ Este proyecto implementa la estructura de datos **Pila (Stack)** utilizando arre
 
 ```cmd
 C:\xampp\php\php.exe -S localhost:8000
+```
 
 3. Ingresar al navegador 
 ```cmd
 http://localhost:8000/
+```
