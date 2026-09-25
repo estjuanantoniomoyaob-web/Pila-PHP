@@ -11,9 +11,8 @@ Este proyecto implementa la estructura de datos **Pila (Stack)** utilizando arre
 
 ---
 
-## Pasos para Clonar y Ejecutar
-
-1. **Clonar el repositorio:**
+## Clonar
+**Clonar el repositorio:**
    ```cmd
    git clone https://github.com/estjuanantoniomoyaob-web/Pila-PHP.git
    ```
