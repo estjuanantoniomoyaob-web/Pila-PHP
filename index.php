@@ -1,5 +1,6 @@
 <?php
-session_start();
+require_once 'Estudiante.php'; 
+session_start();              
 require_once 'Pila.php';
 
 $pila = new Pila();
