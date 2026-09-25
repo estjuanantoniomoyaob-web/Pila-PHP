@@ -11,6 +11,12 @@ Este proyecto implementa la estructura de datos **Pila (Stack)** utilizando arre
 
 ---
 
+## Pasos para Clonar y Ejecutar
+
+1. **Clonar el repositorio:**
+   ```cmd
+   git clone https://github.com/estjuanantoniomoyaob-web/Pila-PHP.git
+   ```
 ## Cómo ejecutar el proyecto PHP (CMD / Terminal)
 
 1. Abre la consola en la raíz de la carpeta del proyecto.
